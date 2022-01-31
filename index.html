@@ -12,54 +12,17 @@
 <body>
     <div class="search-wrapper">
         <label for="search">Search Users</label>
-        <input type="search" id="search">
+        <input type="search" id="search" data-search>
     </div>
-    <div class="user-cards">
+    <div class="user-cards" data-user-card></div>
+    <template data-user-template>
         <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
         </div>
-        <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-        <div class="card">
-            <div class="header">Ali</div>
-            <div class="body">email@gmail.com</div>
-        </div>
-    </div>
+    </template>
 </body>
+
+<script src="./index.js" defer></script>
 
 </html>
